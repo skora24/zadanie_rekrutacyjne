@@ -592,8 +592,9 @@ footer input {
   padding-top:24px;
   opacity:0.3;
   font-size:13px;
-  
+  margin-bottom:0;
   COLOR: #ADB2B7;
+  
 }
 .get span {
   font-size: 14px;
@@ -626,3 +627,8 @@ footer input {
 .fcolumn {  float: left;}
 .left, .right {  width: 25%;}
 .middle {  width: 50%;}
+
+.dol{
+  background-color:#373844 ;
+  padding-bottom: 50px;
+}

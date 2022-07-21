@@ -217,10 +217,9 @@ function App() {
         </div>
       </div>
       </div>
-      <p className='copyright'> 2018 © LUXURY RESTAURANT, ALL RIGHTS RESERVED</p>
     </footer>
     </body>
-    
+    <div className='dol'> <p className='copyright'> 2018 © LUXURY RESTAURANT, ALL RIGHTS RESERVED</p></div>
     </main></>
 
 
