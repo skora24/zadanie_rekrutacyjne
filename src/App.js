@@ -44,6 +44,7 @@ function App() {
     </header>
   
     <main>
+    <div className='czescglowna'>
     <div className='napisy3'>
         <h1 className='napis3'>IMAGE</h1>
         <h2>1970x750</h2>
@@ -65,6 +66,7 @@ function App() {
      <p><i class="arrow prawa"></i></p>
 
     <img className='szerokosci' src={pngggg} alt="pngggg"/>
+    </div>
 
     <div className='dupa'>
     <div className='foodmenu'>

@@ -191,18 +191,16 @@ background-color: #FEA100;
   position: absolute;
   text-align: center;
   margin-top: 80px;
-  margin-left: 670px;
-  margin-right: 1000px;
   font-size: 20px;
   color: white;
+  width: 100%;
 }
 
 .napisy4 {
   position: absolute;
   text-align: center;
-  margin-left: 500px;
-  margin-right: 50px;
   margin-top: 200px;
+  width: 100%;
   
 }
 
@@ -219,14 +217,15 @@ background-color: #FEA100;
 .phone { 
   position: absolute;
   margin-top: 370px;
-  margin-left: 710px;
+  margin-left: 930px;
+  justify-content: center;
 }
 
 .napisy5{
   position: absolute;
   text-align: center;
-  margin-left: 600px;
   margin-top: 425px;
+  width: 100%;
 }
 
 .napis6{
@@ -251,7 +250,7 @@ background-color: #FEA100;
 .prawa {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
-  margin-left: 1060px;
+  margin-left: 1530px;
   margin-top: 200px;
   cursor: pointer;
 
@@ -631,4 +630,9 @@ footer input {
 .dol{
   background-color:#373844 ;
   padding-bottom: 50px;
+} 
+
+
+.czescglowna{
+  width: 100%;
 }
