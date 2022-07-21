@@ -133,8 +133,9 @@ header {
   align-items: center;  
   min-height: 10vh;
   margin-left: 250px;
-  margin-right: 25  0px;
+  margin-right: 250px;
   padding: 0px;
+  width: 100%;
 }
 
 .lista {  
@@ -153,7 +154,7 @@ header {
 }
 
 .ramka1{
-  width: 280px;
+  width: 250px;
   border: 1px solid ;
   padding: 0px;
   margin: 1px orange;
@@ -165,8 +166,8 @@ header {
 .napisz{
   color: white;
   text-decoration: none;
-  padding-left: 4px;
-  width: 8px;
+  padding-left: 5px;
+  padding-top: 12px;
   text-align: center;
 }
 
@@ -175,7 +176,10 @@ padding-bottom: 20px;
 }
 
 .icon_plate{
-object-position: 1px;
+width: 10%;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
 }
 
 .btn{
@@ -186,7 +190,7 @@ background-color: #FEA100;
 .napisy3 {
   position: absolute;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-left: 670px;
   margin-right: 1000px;
   font-size: 20px;
@@ -198,12 +202,12 @@ background-color: #FEA100;
   text-align: center;
   margin-left: 500px;
   margin-right: 50px;
-  margin-top: 250px;
+  margin-top: 200px;
   
 }
 
 .napis4{
-  font-size: 60px;
+  font-size: 55px;
   color: white;
 }
 
@@ -214,7 +218,7 @@ background-color: #FEA100;
 
 .phone { 
   position: absolute;
-  margin-top: 500px;
+  margin-top: 370px;
   margin-left: 710px;
 }
 
@@ -222,7 +226,7 @@ background-color: #FEA100;
   position: absolute;
   text-align: center;
   margin-left: 600px;
-  margin-top: 550px;
+  margin-top: 425px;
 }
 
 .napis6{
@@ -239,24 +243,24 @@ background-color: #FEA100;
   border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 50px;
+  padding: 45px;
   position: absolute;
   
 }
 
-.right {
+.prawa {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   margin-left: 1060px;
-  margin-top: 250px;
+  margin-top: 200px;
   cursor: pointer;
 
 }
 
-.left {
+.lewa {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
-  margin-top: 250px;
+  margin-top: 200px;
   margin-left: 270px;
   cursor: pointer;
   
@@ -265,6 +269,7 @@ background-color: #FEA100;
 
 .tytul{
   font-size: 30px;
+  padding-bottom: 30px;
 }
 
 .dupa{
@@ -273,6 +278,7 @@ background-color: #FEA100;
   width: 100%;
   gap: 20px;
   justify-content: space-around;
+  padding-top: 80px;
 }
 
 .cena{
@@ -288,11 +294,12 @@ background-color: #FEA100;
 .ultv2{
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 
 .plain {
   display: flex;
-  
+  padding-bottom: 20px;
 }
 
 .plainv2{
@@ -302,7 +309,23 @@ background-color: #FEA100;
 
 .toasted{
 display: flex;
+padding-bottom: 20px;
+}
 
+.cena{
+  padding-left: 10px;
+}
+
+.cenadruga{
+  padding-left: 16px;
+}
+
+.cenatrzecia{
+  padding-left: 53px;
+}
+
+.cenaczwarta{
+  padding-left: 52px;
 }
 
 .toastedv2{
@@ -324,17 +347,20 @@ display: flex;
 .przycisk{
   background-color: #FEA100;
 
+
 }
 
 .napisg{
 justify-content: center;
 text-align: center;
-
+font-size: 25px;
+padding-bottom: 30px;
 }
 
 .todays{
   display: flex;
   gap:5px;
+  padding-top: 1px;
 }
 
 .napisnaramce{
@@ -348,6 +374,29 @@ text-align: center;
   position: absolute;
   text-align: center;
   font-size: 20px;
+}
+
+
+.ramka2{
+  
+  
+   
+}
+
+.ramka3{
+  
+  
+  
+}
+
+.todaycena{
+  border: solid black 1px;
+  
+}
+
+.todacena2{
+  border: solid black 1px;
+
 }
 
 .cli{
@@ -459,6 +508,7 @@ padding-bottom: 50px;
   padding-top: 20px;
 }
 .wrapper2 span {
+
 }
 .napisr a {
   color: white;
@@ -480,3 +530,99 @@ padding-bottom: 50px;
 }
 
 @media (min-width: 40em) {  .split2 {    flex-direction: row;  }  .split2 > * {    flex-basis: 100%;  }  .split2 > * + * {    margin-left: 2em;  }}
+
+.szerokosci{
+  width: 100%;
+}
+
+footer {
+  background-color: #373844;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 250px;
+}
+footer h1 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+footer li {
+  padding-bottom: 7px;
+  color: #ADB2B7;
+}
+.sub {
+  background-color: #FEA100;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+footer a {
+  color:#ADB2B7;
+}
+footer input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius:5px ;
+  background-color: #373844;
+}
+.right img {
+  vertical-align: middle;
+  margin-right: 5px;
+  float: left;
+  margin-left: 10px;
+}
+.get {
+  background-color: #52535E;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  height: 70px;
+  width: 60%;
+  font-size: 10px;
+}
+.copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  
+  COLOR: #ADB2B7;
+}
+.get span {
+  font-size: 14px;
+}
+
+.b1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  border: none;
+  background-color: #3B5998;
+  margin-right: 5px;
+}
+.b2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  border: none;
+  background-color: #55ACEE;
+  margin-right: 5px;
+}
+.b3 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  border: none;
+  background-color: #DD4B39;
+}
+
+.fcolumn {  float: left;}
+.left, .right {  width: 25%;}
+.middle {  width: 50%;}

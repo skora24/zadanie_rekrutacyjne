@@ -9,6 +9,10 @@ import pngg2 from './img/pngg2.png';
 import obraz from './components/obraz';
 import pngg3 from './img/pngg3.png';
 import fff from './img/fff.png';
+import pngggg from './img/pngggg.png';
+import icon_apple from './img/icon_apple.png';
+import icon_Google_Play from './img/icon_Google_Play.png'
+
 
 
 function App() {
@@ -57,10 +61,10 @@ function App() {
     <h2 className='napis7'>1-008 005 006</h2>
 
      </div>
-     <p><i class="arrow left"></i></p>
-     <p><i class="arrow right"></i></p>
+     <p><i class="arrow lewa"></i></p>
+     <p><i class="arrow prawa"></i></p>
 
-    <img src={qwe} alt="7d8587"/>
+    <img className='szerokosci' src={pngggg} alt="pngggg"/>
 
     <div className='dupa'>
     <div className='foodmenu'>
@@ -102,20 +106,22 @@ function App() {
     <a className='napisz' href="#">EXPLORE FOOD MENU </a>
     </div>
     </div>
+    
     <div className='todayss'>
     <h1 className='napisg'> Today Special</h1>
     <div className='todays'>
     <div className='ramka2'>
     <h2 className='napisnaramce'>IMAGE 320x210</h2> 
-    <img src={pngg} alt="pngg"/>
+    <img className='zz' src={pngg} alt="pngg"/>
+    <div className='todaycena'></div>
     </div>
 
     <div className='ramka3>'>
     <h2 className='napisnaramce2'>IMAGE 320x172</h2>
-    <img src={pngg2} alt="pngg2"/>
-    
-    
+    <img className='zzz' src={pngg2} alt="pngg2"/>
+    <div className='todaycena2'></div>
     </div>
+
     </div>
    
     
@@ -168,8 +174,57 @@ function App() {
           </div>
         </div>
       </div>
+
+      <body>
+      <footer>
+      <div className='container'>
+      <div className='row'>
+        <div className='fcolumn left'>
+          <h1> Navigation</h1>
+          <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Menu</li>
+            <li>Reservation</li>
+            <li>Recipe</li>
+            <li>Blog</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div className='fcolumn middle'>
+          <ul>
+          <h1> News letter</h1>
+         <li> <a> Enter your email address and subscribe daily newsletter</a> </li>
+         <li><input type="text" placeholder='Email Address'></input>
+          <button className='sub'>SUBSCRIBE</button> </li>
+          <li>
+            <button className='b1'></button>
+            <button className='b2'></button>
+            <button className='b3'></button>
+          </li>
+          </ul>
+        </div>
+        <div className='fcolumn right'>
+          <h1> Our app avilable</h1>
+          <ul>
+            <li><button className='get'> <img src={icon_apple}></img>Avilable on the <br></br>
+            <span>App Store </span>
+            </button></li>
+            <li><button className='get'> <img src={icon_Google_Play}></img> Get it on <br></br>
+            <span>Google Play </span>
+            </button></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <p className='copyright'> 2018 © LUXURY RESTAURANT, ALL RIGHTS RESERVED</p>
+    </footer>
+    </body>
     
     </main></>
+
+
+
   
   );
 }
