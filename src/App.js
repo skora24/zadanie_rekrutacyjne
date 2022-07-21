@@ -55,9 +55,10 @@ function App() {
       <h2 className='napis5'>from luxury resteurant</h2>
     </div>
 
-    <img className='phone' src={icon_phone} alt="icon_phone"/>
+    
       
      <div className='napisy5'>
+     <img className='phone' src={icon_phone} alt="icon_phone"/>
     <a className='napis6' href="#">CALL US AND BOOK YOUR TABLE</a>
     <h2 className='napis7'>1-008 005 006</h2>
 

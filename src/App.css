@@ -141,7 +141,8 @@ header {
 .lista {  
   display: flex;  
   justify-content: space-around;  
-  width: 70%;
+  width: 100%;
+  min-width: 5vh;
 }
 
 .zdjecie1 { 
@@ -214,11 +215,13 @@ background-color: #FEA100;
   color: white;
 }
 
-.phone { 
-  position: absolute;
-  margin-top: 370px;
-  margin-left: 930px;
+.phone {
+  
+  margin-left: auto;
   justify-content: center;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 10px;
 }
 
 .napisy5{
