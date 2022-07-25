@@ -217,7 +217,7 @@ background-color: #FEA100;
 .phone { 
   position: absolute;
   margin-top: 370px;
-  margin-left: 930px;
+  margin-left: 705px;
   justify-content: center;
 }
 
@@ -250,7 +250,7 @@ background-color: #FEA100;
 .prawa {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
-  margin-left: 1530px;
+  margin-left: 1090px;
   margin-top: 200px;
   cursor: pointer;
 
